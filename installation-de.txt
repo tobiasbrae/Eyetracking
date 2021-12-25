@@ -1,0 +1,25 @@
+Installation EyeTracking
+
+-Anaconda installieren
+
+-Anaconda Prompt öffnen (ggf. mit Administrator-Rechten)
+
+-Mit "conda install python=<Versionsnummer>" gewünschte Version von Python installieren
+
+-Falls OpenCV bereits installiert war, zunächst mit "pip uninstall opencv-python" deinstallieren
+-Mit "pip install opencv-python" OpenCV installieren
+
+-Auf der Seite https://pypi.org/simple/dlib/ eine passende Version der dlib auswählen (Endung .whl), Link-Adresse kopieren
+-Mit "pip install <Link-Adresse>" dlib installieren
+
+-Archiv "EyeTracking.zip" in ein beliebiges Verzeichnis entpacken
+
+-Archiv http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 herunterladen
+-Die darin enthaltene shape_predictor_68_face_landmarks.dat in dasselbe Verzeichnis entpacken
+
+-Das Script "EyeTracking.py" ausführen
+
+Verwendete Versionen
+
+-Python: 3.6.10
+-dlib: dlib-19.8.1-cp36-cp36m-win_amd64.whl (Für Python 3.6, Windows, AMD64 CPU)
